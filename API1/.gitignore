@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Django related
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Ignore settings and environment-specific files
+settings.py
+manage.py
+.env
+
+# If you're using virtualenv
+venv/
+ENV/
+.venv/
+env.bak/
+.env.bak/
+
+# VS Code settings
+.vscode/
+
+# IDEs and editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS files
+.DS_Store
+
+# Logs and debug info
+*.log
+debug.log
+
+# MySQL or Postgres credentials (if any database config files are used)
+*.sql
+*.dump
+
+# Other files
+*.bak
+*.swp
+*.tmp
